@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+gem "cpf_cnpj"
+
+
+#definir a versão local em cada projeto rbenv local 3.0.2
+
+

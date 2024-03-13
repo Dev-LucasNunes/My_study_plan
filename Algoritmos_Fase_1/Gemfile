@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem "debug", require: false
+gem 'ruby_algorithm', git: 'https://github.com/Dev-LucasNunes/algorithm_gem'
+
