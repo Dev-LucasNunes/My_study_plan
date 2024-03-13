@@ -26,7 +26,7 @@
 # end
 
 # foo do
-#   puts 'esse é o bloco que vai ser chamado no lugar de yield que esta no metodo acima'
+#   puts 'esse é o bloco que vai ser chamado no lugar de yield que esta no metodo acima
 # end
 
 # def foo
