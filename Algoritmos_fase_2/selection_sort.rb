@@ -17,5 +17,5 @@ def selection_sort(array)
   array
  end
 
-array = [64, 25, 12, 27, 22, 11]
-selection_sort(array)
+# array = [64, 25, 12, 27, 22, 11]
+# puts selection_sort(array).inspect

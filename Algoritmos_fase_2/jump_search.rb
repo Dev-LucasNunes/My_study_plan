@@ -11,17 +11,15 @@ def jump_search(array, k)
       target = linear_search(search_array, k)
       if target
         position = index - m + target[0]
-        puts "O número #{k} Foi encontrado na posição #{position}"
         return position
       end
     end
     index += m
   end
-
-  puts "A chave #{k} não foi encontrada"
+  
   return nil
 end
 
 
-array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
-jump_search(array, 55)
+# array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
+# jump_search(array, 55)
