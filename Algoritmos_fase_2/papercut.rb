@@ -12,8 +12,8 @@ def papercut(a, b)
     a = b
     b = rem
   end
-  
+
   return result
  end
 
- puts papercut(29, 13)
+#  puts papercut(29, 13)
