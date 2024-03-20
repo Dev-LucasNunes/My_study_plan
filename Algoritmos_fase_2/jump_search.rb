@@ -16,10 +16,10 @@ def jump_search(array, k)
     end
     index += m
   end
-  
-  return nil
+  nil
 end
 
 
+
 # array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
-# jump_search(array, 55)
+# puts jump_search(array, 55)
