@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Dev-LucasNunes/algorithm_gem
+  revision: 537777a7159be82d70fa1e0a679049b3549c32e1
+  specs:
+    ruby_algorithm (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -32,6 +38,7 @@ DEPENDENCIES
   debug
   nokogiri
   os
+  ruby_algorithm!
 
 BUNDLED WITH
    2.5.6
