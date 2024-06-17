@@ -13,7 +13,7 @@ def job_sequencing_problem(arr, t)
     while i < sorted_array.length
         j = [t - 1, sorted_array[i][1] - 1].max
         while j >= 0
-            if time_slots[j] == false
+            if time_slots[j] == false  zsh
                 time_slots[j] = true
                 job[j] = sorted_array[i][0]
                 break
